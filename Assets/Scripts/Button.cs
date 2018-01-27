@@ -39,12 +39,16 @@ public class Button : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.CompareTag("Finger"))
-        {
+        if (collision.CompareTag("Finger") || collision.CompareTag("PlantEdge")){
+
             isOver = true;
-            if (collision.gameObject.name == "Zuignap")
-            {
+            
+            if (collision.gameObject.name == "Zuignap"){
                 hasDelay = true;
+            }
+            if (collision.CompareTag("PlantEdge"))
+            {
+                moveSat();
             }
         }
     }
@@ -71,8 +75,7 @@ public class Button : MonoBehaviour
         }
     }
 
-    private void moveSat()
-    {
+    private void moveSat(){
         com.transform.Rotate(direction * moveSpeed * Time.deltaTime);
         spriteRenderer.color = pressed;
     }

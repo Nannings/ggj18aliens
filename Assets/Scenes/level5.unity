@@ -678,27 +678,27 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1673059415211232, guid: f8fbd9a81f251694c9f46cc3b99e386e, type: 2}
       propertyPath: m_TagString
-      value: Finger
+      value: PlantEdge
       objectReference: {fileID: 0}
     - target: {fileID: 1529821295099102, guid: f8fbd9a81f251694c9f46cc3b99e386e, type: 2}
       propertyPath: m_TagString
-      value: Finger
+      value: PlantEdge
       objectReference: {fileID: 0}
     - target: {fileID: 1120339101178444, guid: f8fbd9a81f251694c9f46cc3b99e386e, type: 2}
       propertyPath: m_TagString
-      value: Finger
+      value: PlantEdge
       objectReference: {fileID: 0}
     - target: {fileID: 1239329451214056, guid: f8fbd9a81f251694c9f46cc3b99e386e, type: 2}
       propertyPath: m_TagString
-      value: Finger
+      value: PlantEdge
       objectReference: {fileID: 0}
     - target: {fileID: 1719248261229398, guid: f8fbd9a81f251694c9f46cc3b99e386e, type: 2}
       propertyPath: m_TagString
-      value: Finger
+      value: PlantEdge
       objectReference: {fileID: 0}
     - target: {fileID: 1189491635902626, guid: f8fbd9a81f251694c9f46cc3b99e386e, type: 2}
       propertyPath: m_TagString
-      value: Finger
+      value: PlantEdge
       objectReference: {fileID: 0}
     - target: {fileID: 1024190678843212, guid: f8fbd9a81f251694c9f46cc3b99e386e, type: 2}
       propertyPath: m_TagString
@@ -706,11 +706,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1181966419011076, guid: f8fbd9a81f251694c9f46cc3b99e386e, type: 2}
       propertyPath: m_TagString
-      value: Finger
+      value: PlantEdge
       objectReference: {fileID: 0}
     - target: {fileID: 1745504279077294, guid: f8fbd9a81f251694c9f46cc3b99e386e, type: 2}
       propertyPath: m_TagString
-      value: Finger
+      value: PlantEdge
       objectReference: {fileID: 0}
     - target: {fileID: 1340362615025780, guid: f8fbd9a81f251694c9f46cc3b99e386e, type: 2}
       propertyPath: m_TagString
@@ -718,7 +718,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1184568109409120, guid: f8fbd9a81f251694c9f46cc3b99e386e, type: 2}
       propertyPath: m_TagString
-      value: Finger
+      value: PlantEdge
       objectReference: {fileID: 0}
     - target: {fileID: 1024190678843212, guid: f8fbd9a81f251694c9f46cc3b99e386e, type: 2}
       propertyPath: m_Name
@@ -731,6 +731,34 @@ Prefab:
     - target: {fileID: 1673059415211232, guid: f8fbd9a81f251694c9f46cc3b99e386e, type: 2}
       propertyPath: m_Name
       value: edge3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1745504279077294, guid: f8fbd9a81f251694c9f46cc3b99e386e, type: 2}
+      propertyPath: m_Name
+      value: edge4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1181966419011076, guid: f8fbd9a81f251694c9f46cc3b99e386e, type: 2}
+      propertyPath: m_Name
+      value: edge5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1719248261229398, guid: f8fbd9a81f251694c9f46cc3b99e386e, type: 2}
+      propertyPath: m_Name
+      value: edge6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1189491635902626, guid: f8fbd9a81f251694c9f46cc3b99e386e, type: 2}
+      propertyPath: m_Name
+      value: edge7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1120339101178444, guid: f8fbd9a81f251694c9f46cc3b99e386e, type: 2}
+      propertyPath: m_Name
+      value: edge8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1529821295099102, guid: f8fbd9a81f251694c9f46cc3b99e386e, type: 2}
+      propertyPath: m_Name
+      value: edge9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1184568109409120, guid: f8fbd9a81f251694c9f46cc3b99e386e, type: 2}
+      propertyPath: m_Name
+      value: edge10
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114557074743558558, guid: f8fbd9a81f251694c9f46cc3b99e386e, type: 2}
@@ -774,6 +802,16 @@ Prefab:
     - target: {fileID: 4672320333259436, guid: 638e91202dc353145805466c3613bdb7, type: 2}
       propertyPath: m_RootOrder
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 82553544749395566, guid: 638e91202dc353145805466c3613bdb7,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 82553544749395566, guid: 638e91202dc353145805466c3613bdb7,
+        type: 2}
+      propertyPath: Mute
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 638e91202dc353145805466c3613bdb7, type: 2}
