@@ -28,9 +28,18 @@ public class GameManager : MonoBehaviour {
     }
 
     // Update is called once per frame
-    void Update () {
-		
-	}
+    void Update ()
+    {
+        if (Input.GetKey(KeyCode.Alpha1))
+        {
+            AudioListener.volume -= .5f;
+        }
+
+        if (Input.GetKey(KeyCode.Alpha2))
+        {
+            AudioListener.volume += .5f;
+        }
+    }
 
     public void PlayComplete()
     {
