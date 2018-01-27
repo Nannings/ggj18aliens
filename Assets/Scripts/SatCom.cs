@@ -3,21 +3,23 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SatCom : MonoBehaviour {
+public class SatCom : MonoBehaviour
+{
+    private CanvasHud canvasHud;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
+    private void Awake()
+    {
+        canvasHud = FindObjectOfType<CanvasHud>();
+    }
+
+    void Update () {
         float angle = Quaternion.Angle(transform.rotation, Quaternion.identity);
         if (angle < 10)
         {
             SceneManager.LoadScene("level2");
         }
 
-        Debug.Log(angle);
+        canvasHud.ChangeWifi(angle);
+        
 	}
 }
