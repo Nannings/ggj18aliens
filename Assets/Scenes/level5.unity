@@ -702,7 +702,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1024190678843212, guid: f8fbd9a81f251694c9f46cc3b99e386e, type: 2}
       propertyPath: m_TagString
-      value: Finger
+      value: PlantEdge
       objectReference: {fileID: 0}
     - target: {fileID: 1181966419011076, guid: f8fbd9a81f251694c9f46cc3b99e386e, type: 2}
       propertyPath: m_TagString
@@ -719,6 +719,18 @@ Prefab:
     - target: {fileID: 1184568109409120, guid: f8fbd9a81f251694c9f46cc3b99e386e, type: 2}
       propertyPath: m_TagString
       value: Finger
+      objectReference: {fileID: 0}
+    - target: {fileID: 1024190678843212, guid: f8fbd9a81f251694c9f46cc3b99e386e, type: 2}
+      propertyPath: m_Name
+      value: edge1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1239329451214056, guid: f8fbd9a81f251694c9f46cc3b99e386e, type: 2}
+      propertyPath: m_Name
+      value: edge2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673059415211232, guid: f8fbd9a81f251694c9f46cc3b99e386e, type: 2}
+      propertyPath: m_Name
+      value: edge3
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114557074743558558, guid: f8fbd9a81f251694c9f46cc3b99e386e, type: 2}
