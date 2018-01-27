@@ -15,6 +15,6 @@ public class SatCom : MonoBehaviour {
             SceneManager.LoadScene("level2");
         }
 
-        //Debug.Log(angle);
+        Debug.Log(angle);
 	}
 }

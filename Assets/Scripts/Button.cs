@@ -6,12 +6,11 @@ public class Button : MonoBehaviour {
 
     public GameObject com;
     public Vector3 direction;
-
     public Color pressed;
     public Color notPressed;
+    public bool hasDelay;
 
-    bool isOver;
-
+    private bool isOver;
     private float moveSpeed = 20;
     private SpriteRenderer spriteRenderer;
     private float releaseDelay = 0;
@@ -45,11 +44,9 @@ public class Button : MonoBehaviour {
     }
 
     private void release(){
-        if (releaseDelay > 0)
-        {
+        if (releaseDelay > 0 && hasDelay){
             releaseDelay -= Time.deltaTime * 10;
             moveSat();
-            Debug.Log(releaseDelay);
         }
         else{
             releaseDelay = 0;
