@@ -652,6 +652,7 @@ MonoBehaviour:
   direction: {x: 1, y: 0, z: 0}
   pressed: {r: 0.07586217, g: 1, b: 0, a: 1}
   notPressed: {r: 1, g: 1, b: 1, a: 1}
+  hasDelay: 0
 --- !u!58 &423705501
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -758,7 +759,7 @@ GameObject:
   - component: {fileID: 629748573}
   - component: {fileID: 629748572}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: FingerLeft
   m_TagString: Finger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -868,6 +869,7 @@ MonoBehaviour:
   direction: {x: -1, y: 0, z: 0}
   pressed: {r: 0.07586217, g: 1, b: 0, a: 1}
   notPressed: {r: 1, g: 1, b: 1, a: 1}
+  hasDelay: 0
 --- !u!50 &826049848
 Rigidbody2D:
   serializedVersion: 4
@@ -943,7 +945,7 @@ GameObject:
   - component: {fileID: 846227030}
   - component: {fileID: 846227029}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: tentacle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1100,6 +1102,7 @@ MonoBehaviour:
   direction: {x: 0, y: -1, z: 0}
   pressed: {r: 0.07586217, g: 1, b: 0, a: 1}
   notPressed: {r: 1, g: 1, b: 1, a: 1}
+  hasDelay: 0
 --- !u!50 &1100773043
 Rigidbody2D:
   serializedVersion: 4
@@ -1273,7 +1276,7 @@ GameObject:
   - component: {fileID: 1195524105}
   - component: {fileID: 1195524104}
   m_Layer: 0
-  m_Name: Finger
+  m_Name: FingerRight
   m_TagString: Finger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1383,6 +1386,7 @@ MonoBehaviour:
   direction: {x: 0, y: 0, z: 1}
   pressed: {r: 0.07586217, g: 1, b: 0, a: 1}
   notPressed: {r: 1, g: 1, b: 1, a: 1}
+  hasDelay: 0
 --- !u!50 &1320088694
 Rigidbody2D:
   serializedVersion: 4
@@ -1574,6 +1578,7 @@ MonoBehaviour:
   direction: {x: 0, y: 1, z: 0}
   pressed: {r: 0.07586217, g: 1, b: 0, a: 1}
   notPressed: {r: 1, g: 1, b: 1, a: 1}
+  hasDelay: 0
 --- !u!50 &1447302945
 Rigidbody2D:
   serializedVersion: 4
@@ -1700,6 +1705,7 @@ MonoBehaviour:
   direction: {x: 0, y: 0, z: -1}
   pressed: {r: 0.07586217, g: 1, b: 0, a: 1}
   notPressed: {r: 1, g: 1, b: 1, a: 1}
+  hasDelay: 0
 --- !u!50 &1713387498
 Rigidbody2D:
   serializedVersion: 4
