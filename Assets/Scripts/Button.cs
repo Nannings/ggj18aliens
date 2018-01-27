@@ -14,40 +14,46 @@ public class Button : MonoBehaviour {
 
     private float moveSpeed = 20;
     private SpriteRenderer spriteRenderer;
+    private float releaseDelay = 0;
 
-	// Use this for initialization
-	void Start ()
-    {
+	void Start (){
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
 	
-	// Update is called once per frame
-	void Update ()
-    {
-        if (isOver && Input.GetMouseButton(0))
-        {
-            com.transform.Rotate(direction * moveSpeed * Time.deltaTime);
-            spriteRenderer.color = pressed;
+
+	void Update (){
+        if (isOver && Input.GetMouseButton(0)){
+            moveSat();
+            releaseDelay = 10;    
         }
-        else
-        {
+        else{
+            release();
             spriteRenderer.color = notPressed;
         }
     }
 
-    private void OnTriggerStay2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Finger"))
-        {
+    private void OnTriggerStay2D(Collider2D collision){
+        if (collision.CompareTag("Finger")){
             isOver = true;
         }
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Finger"))
-        {
+    private void OnTriggerExit2D(Collider2D collision){
+        if (collision.CompareTag("Finger")){
             isOver = false;
         }
+    }
+
+    private void release(){
+        if(releaseDelay > 0){
+            releaseDelay -= Time.deltaTime * 100;
+            moveSat();
+            Debug.Log(releaseDelay);
+        }
+    }
+
+    private void moveSat(){
+        com.transform.Rotate(direction * moveSpeed * Time.deltaTime);
+        spriteRenderer.color = pressed;
     }
 }
