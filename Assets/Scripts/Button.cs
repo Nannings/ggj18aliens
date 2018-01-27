@@ -10,8 +10,8 @@ public class Button : MonoBehaviour
     public Color pressed;
     public Color notPressed;
     public bool hasDelay;
-    public float moveSpeed = 20;
 
+    private float moveSpeed = 50;
     private bool isOver;
     private SpriteRenderer spriteRenderer;
     private float releaseDelay = 0;
@@ -19,6 +19,7 @@ public class Button : MonoBehaviour
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
+        com = FindObjectOfType<SatCom>().gameObject;
     }
 
 
