@@ -10,6 +10,7 @@ public class SatCom : MonoBehaviour {
     private Vector3 startPos;
     private Vector3 goalPos;
     private WifiSound wifiSound;
+    private Transition trans;
 
     private void Awake()
     {
@@ -20,6 +21,7 @@ public class SatCom : MonoBehaviour {
         goalPos = new Vector3(UnityEngine.Random.Range(-320f, 360f), UnityEngine.Random.Range(-320f, 360f), UnityEngine.Random.Range(-320f, 360f));
         wifiIcon = FindObjectOfType<Wifi>();
         wifiSound = FindObjectOfType<WifiSound>();
+        trans = FindObjectOfType<Transition>();
     }
 
     private void InitState(float value)
@@ -29,6 +31,7 @@ public class SatCom : MonoBehaviour {
 
     private void Start(){
         transform.rotation = Quaternion.Euler(startPos);
+        trans.PlayAnimation("Enter");
     }
 
     void Update ()
@@ -39,23 +42,29 @@ public class SatCom : MonoBehaviour {
         }
 
         float angle = Quaternion.Angle(transform.rotation, Quaternion.Euler(goalPos)); //.identity = no Rotation
-        if (angle < 20){
+        if (angle < 20)
+        {
             print("level complete!!!");
-            GameManager._instance.PlayComplete();
-            level++;
-            if (level > 6){
-                level = 0;
-            }
-            SceneManager.LoadScene(level);
+            Invoke("NextLevel", 1);
+            trans.PlayAnimation("Exit");
+            enabled = false;
         }
 
         wifiIcon.ChangeWifi(angle);
         if(wifiSound != null)
             wifiSound.SetSound(angle);
+
+
 	}
 
     public void NextLevel()
     {
-
+        GameManager._instance.PlayComplete();
+        level++;
+        if (level > 6)
+        {
+            level = 0;
+        }
+        SceneManager.LoadScene(level);
     }
 }
