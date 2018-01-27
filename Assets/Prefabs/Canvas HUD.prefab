@@ -80,7 +80,6 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 25bfa2abbbf9e92459f11120954d6a68, type: 3}
   - {fileID: 21300000, guid: dbcd4e46a0cffe543ad92368c3421832, type: 3}
   - {fileID: 21300000, guid: 275e967819cc92e49964c1b166d89215, type: 3}
-  - {fileID: 21300000, guid: 780bec535963e8c4ea0fb2d9560b6a54, type: 3}
   wifiImage: {fileID: 114531161903237634}
 --- !u!114 &114231454659318062
 MonoBehaviour:
@@ -128,7 +127,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 780bec535963e8c4ea0fb2d9560b6a54, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 275e967819cc92e49964c1b166d89215, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -258,6 +257,6 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -3.2000122, y: 5.700012}
-  m_SizeDelta: {x: 30, y: 32}
+  m_AnchoredPosition: {x: -3.5, y: 1.6000061}
+  m_SizeDelta: {x: 65.22, y: 69.57}
   m_Pivot: {x: 1, y: 0}

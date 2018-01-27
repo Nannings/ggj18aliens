@@ -1,0 +1,247 @@
+fileFormatVersion: 2
+guid: 344c2c53a21ac5a4a81f3ae754e11626
+timeCreated: 1517034038
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Visboi_0
+    21300002: Visboi_1
+    21300004: Visboi_2
+    21300006: Visboi_3
+    21300008: Visboi_4
+    21300010: Visboi_5
+    21300012: Visboi_6
+    21300014: Visboi_7
+    21300016: Visboi_8
+    21300018: Visboi_9
+    21300020: Visboi_10
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: -1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Visboi_0
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 27
+        width: 151
+        height: 347
+      alignment: 9
+      pivot: {x: 0.5324114, y: 0.12926473}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Visboi_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 125
+        width: 83
+        height: 366
+      alignment: 9
+      pivot: {x: 0.52383494, y: 0.12650226}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Visboi_2
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 391
+        width: 101
+        height: 131
+      alignment: 9
+      pivot: {x: 0.472901, y: 0.24433762}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Visboi_3
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 495
+        width: 58
+        height: 157
+      alignment: 9
+      pivot: {x: 0.5964356, y: 0.2996041}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Visboi_4
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 535
+        width: 35
+        height: 103
+      alignment: 9
+      pivot: {x: 0.51997596, y: 0.17417893}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Visboi_5
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 538
+        width: 51
+        height: 107
+      alignment: 9
+      pivot: {x: 0.47258234, y: 0.21903008}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Visboi_6
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 539
+        width: 89
+        height: 104
+      alignment: 9
+      pivot: {x: 0.24076174, y: 0.2714292}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Visboi_7
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 655
+        width: 55
+        height: 119
+      alignment: 9
+      pivot: {x: 0.30932117, y: 0.14160822}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Visboi_8
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 656
+        width: 42
+        height: 111
+      alignment: 9
+      pivot: {x: 0.45006016, y: 0.10947893}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Visboi_9
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 645
+        width: 36
+        height: 132
+      alignment: 9
+      pivot: {x: 0.48057938, y: 0.18749769}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Visboi_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 649
+        width: 52
+        height: 136
+      alignment: 9
+      pivot: {x: 0.5941173, y: 0.18640721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
