@@ -45,10 +45,14 @@ public class Button : MonoBehaviour {
     }
 
     private void release(){
-        if(releaseDelay > 0){
-            releaseDelay -= Time.deltaTime * 100;
+        if (releaseDelay > 0)
+        {
+            releaseDelay -= Time.deltaTime * 10;
             moveSat();
             Debug.Log(releaseDelay);
+        }
+        else{
+            releaseDelay = 0;
         }
     }
 
