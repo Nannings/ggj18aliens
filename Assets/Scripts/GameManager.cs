@@ -5,9 +5,12 @@ using UnityEngine;
 public class GameManager : MonoBehaviour {
 
     public static GameManager _instance;
+    public AudioClip complete;
 
-	// Use this for initialization
-	void Awake () {
+    private AudioSource audioSource;
+
+    // Use this for initialization
+    void Awake () {
         if (_instance != null)
         {
             Destroy(this.gameObject);
@@ -18,9 +21,19 @@ public class GameManager : MonoBehaviour {
             DontDestroyOnLoad(gameObject);
         }
     }
-	
-	// Update is called once per frame
-	void Update () {
+
+    private void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
+
+    // Update is called once per frame
+    void Update () {
 		
 	}
+
+    public void PlayComplete()
+    {
+        audioSource.PlayOneShot(complete);
+    }
 }
