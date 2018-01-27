@@ -16,11 +16,14 @@ public class Button : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     private float releaseDelay = 0;
     private Collider2D col;
+    private ClosedEye closedEye;
+    public bool isPressed;
 
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         com = FindObjectOfType<SatCom>().gameObject;
+        closedEye = FindObjectOfType<ClosedEye>();
     }
 
 
@@ -31,6 +34,12 @@ public class Button : MonoBehaviour
             moveSat();
             releaseDelay = 10;
             Debug.Log("isOver & input");
+            if (closedEye != null)
+            {
+                closedEye.toggle("pressed");
+            }
+
+            isPressed = true;
         }
         else{
             release();
@@ -74,6 +83,13 @@ public class Button : MonoBehaviour
             releaseDelay = 0;
             spriteRenderer.color = notPressed;
         }
+
+        if (closedEye != null)
+        {
+            closedEye.toggle("released");
+        }
+
+        isPressed = false;
     }
 
     private void moveSat(){
