@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SatCom : MonoBehaviour
-{
+public class SatCom : MonoBehaviour {
     private CanvasHud canvasHud;
+    private int level;
 
     private void Awake()
     {
+        level = SceneManager.GetActiveScene().buildIndex;
         canvasHud = FindObjectOfType<CanvasHud>();
     }
 
@@ -20,17 +21,13 @@ public class SatCom : MonoBehaviour
         }
 
         float angle = Quaternion.Angle(transform.rotation, Quaternion.identity); //.identity = no Rotation
-        if (angle < 10)
-        {
+        if (angle < 10){
             print("level complete!!!");
-
-            int currentLevel = SceneManager.GetActiveScene().buildIndex;
-            currentLevel++;
-            if (currentLevel > SceneManager.sceneCount)
-            {
-                currentLevel = 0;
+            level++;
+            if (level > 6){
+                level = 0;
             }
-            SceneManager.LoadScene(currentLevel);
+            SceneManager.LoadScene(level);
         }
         canvasHud.ChangeWifi(angle);   
 	}

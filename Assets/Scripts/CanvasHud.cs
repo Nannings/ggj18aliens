@@ -10,21 +10,27 @@ public class CanvasHud : MonoBehaviour
 
     public void ChangeWifi(float wifi)
     {
-        if (wifi < 30)
-        {
-            wifiImage.sprite = wifiSprites[0];
-        }
-        else if (wifi < 90)
+        if (wifi <= 180 && wifi > 90)
         {
             wifiImage.sprite = wifiSprites[1];
         }
-        else if (wifi < 180)
+        else if (wifi <= 90 && wifi > 60)
         {
             wifiImage.sprite = wifiSprites[2];
         }
-        else
+        else if (wifi <= 60 && wifi > 30)
         {
             wifiImage.sprite = wifiSprites[3];
+        }
+
+        else if (wifi <= 30)
+        {
+            wifiImage.sprite = wifiSprites[4];
+        }
+
+        else
+        {
+            wifiImage.sprite = wifiSprites[0];
         }
     }
 }
