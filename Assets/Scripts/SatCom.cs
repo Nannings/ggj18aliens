@@ -9,6 +9,9 @@ public class SatCom : MonoBehaviour {
     private int level;
     private Vector3 startPos;
     private Vector3 goalPos;
+    private AudioSource audio;
+
+    public AudioClip complete;
 
 
     private void Awake()
@@ -19,6 +22,8 @@ public class SatCom : MonoBehaviour {
         startPos = new Vector3(UnityEngine.Random.Range(-360f, -340f), UnityEngine.Random.Range(-360f, -340f), UnityEngine.Random.Range(-360f, -340f));
         UnityEngine.Random.InitState((int)System.DateTime.Now.Minute * (int)System.DateTime.Now.Millisecond);
         goalPos = new Vector3(UnityEngine.Random.Range(-320f, 360f), UnityEngine.Random.Range(-320f, 360f), UnityEngine.Random.Range(-320f, 360f));
+
+        audio = FindObjectOfType<AudioSource>();
     }
 
     private void InitState(float value)
@@ -40,12 +45,19 @@ public class SatCom : MonoBehaviour {
         float angle = Quaternion.Angle(transform.rotation, Quaternion.Euler(goalPos)); //.identity = no Rotation
         if (angle < 20){
             print("level complete!!!");
+            if(audio != null)
+                audio.PlayOneShot(complete);
             level++;
-            if (level > 5){
+            if (level > 6){
                 level = 0;
             }
             SceneManager.LoadScene(level);
         }
         canvasHud.ChangeWifi(angle);   
 	}
+
+    public void NextLevel()
+    {
+
+    }
 }
