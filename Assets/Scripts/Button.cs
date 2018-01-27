@@ -35,6 +35,9 @@ public class Button : MonoBehaviour {
         if (collision.CompareTag("Finger")){
             isOver = true;
         }
+        if (collision.CompareTag("SuctionCup")){
+            hasDelay = true;
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision){
