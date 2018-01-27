@@ -387,6 +387,7 @@ GameObject:
   - component: {fileID: 740383100}
   - component: {fileID: 740383099}
   - component: {fileID: 740383098}
+  - component: {fileID: 740383101}
   m_Layer: 0
   m_Name: StartButton
   m_TagString: Untagged
@@ -451,7 +452,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 740383099}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 740383101}
+        m_MethodName: loadScene
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &740383099
@@ -487,6 +499,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 740383096}
+--- !u!114 &740383101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 740383096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae8796c263e416544a472cd011a5e615, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &785506365
 GameObject:
   m_ObjectHideFlags: 0
