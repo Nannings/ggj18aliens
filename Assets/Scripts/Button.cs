@@ -15,6 +15,7 @@ public class Button : MonoBehaviour
     private bool isOver;
     private SpriteRenderer spriteRenderer;
     private float releaseDelay = 0;
+    private Collider2D col;
 
     void Start()
     {
@@ -25,21 +26,20 @@ public class Button : MonoBehaviour
 
     void Update()
     {
-        if (isOver && Input.GetMouseButton(0))
+        if (isOver && (Input.GetMouseButton(0) || col.CompareTag("PlantEdge")))
         {
             moveSat();
             releaseDelay = 10;
+            Debug.Log("isOver & input");
         }
-        else
-        {
+        else{
             release();
-            spriteRenderer.color = notPressed;
-        }
+            }
     }
 
-    private void OnTriggerStay2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Finger") || collision.CompareTag("PlantEdge")){
+    private void OnTriggerStay2D(Collider2D collision){
+        col = collision;
+        if (col.CompareTag("Finger") || col.CompareTag("PlantEdge")){
 
             isOver = true;
             
@@ -55,7 +55,7 @@ public class Button : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.CompareTag("Finger"))
+        if (collision.CompareTag("Finger") || col.CompareTag("PlantEdge"))
         {
             isOver = false;
         }
@@ -72,6 +72,7 @@ public class Button : MonoBehaviour
         else
         {
             releaseDelay = 0;
+            spriteRenderer.color = notPressed;
         }
     }
 
