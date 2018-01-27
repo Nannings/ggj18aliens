@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 using System;
 
 public class SatCom : MonoBehaviour {
-    private CanvasHud canvasHud;
+    private Wifi wifiIcon;
     private int level;
     private Vector3 startPos;
     private Vector3 goalPos;
@@ -17,12 +17,11 @@ public class SatCom : MonoBehaviour {
     private void Awake()
     {
         level = SceneManager.GetActiveScene().buildIndex;
-        canvasHud = FindObjectOfType<CanvasHud>();
         UnityEngine.Random.InitState((int) System.DateTime.Now.Ticks);
         startPos = new Vector3(UnityEngine.Random.Range(-360f, -340f), UnityEngine.Random.Range(-360f, -340f), UnityEngine.Random.Range(-360f, -340f));
         UnityEngine.Random.InitState((int)System.DateTime.Now.Minute * (int)System.DateTime.Now.Millisecond);
         goalPos = new Vector3(UnityEngine.Random.Range(-320f, 360f), UnityEngine.Random.Range(-320f, 360f), UnityEngine.Random.Range(-320f, 360f));
-
+        wifiIcon = FindObjectOfType<Wifi>();
         audio = FindObjectOfType<AudioSource>();
     }
 
@@ -53,7 +52,8 @@ public class SatCom : MonoBehaviour {
             }
             SceneManager.LoadScene(level);
         }
-        canvasHud.ChangeWifi(angle);   
+
+        wifiIcon.ChangeWifi(angle);
 	}
 
     public void NextLevel()

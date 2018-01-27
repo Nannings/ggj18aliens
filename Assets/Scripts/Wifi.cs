@@ -3,10 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class CanvasHud : MonoBehaviour
+public class Wifi : MonoBehaviour
 {
     public Sprite[] wifiSprites;
-    public Image wifiImage;
+    public SpriteRenderer wifiImage;
+
+    private void Awake()
+    {
+        wifiImage = GetComponent<SpriteRenderer>();
+    }
 
     public void ChangeWifi(float wifi)
     {
