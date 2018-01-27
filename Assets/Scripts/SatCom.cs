@@ -9,6 +9,7 @@ public class SatCom : MonoBehaviour {
     private int level;
     private Vector3 startPos;
     private Vector3 goalPos;
+    private WifiSound wifiSound;
 
     private void Awake()
     {
@@ -18,6 +19,7 @@ public class SatCom : MonoBehaviour {
         UnityEngine.Random.InitState((int)System.DateTime.Now.Minute * (int)System.DateTime.Now.Millisecond);
         goalPos = new Vector3(UnityEngine.Random.Range(-320f, 360f), UnityEngine.Random.Range(-320f, 360f), UnityEngine.Random.Range(-320f, 360f));
         wifiIcon = FindObjectOfType<Wifi>();
+        wifiSound = FindObjectOfType<WifiSound>();
     }
 
     private void InitState(float value)
@@ -48,6 +50,8 @@ public class SatCom : MonoBehaviour {
         }
 
         wifiIcon.ChangeWifi(angle);
+        if(wifiSound != null)
+            wifiSound.SetSound(angle);
 	}
 
     public void NextLevel()
