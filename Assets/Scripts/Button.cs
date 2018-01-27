@@ -63,7 +63,7 @@ public class Button : MonoBehaviour
         {
             releaseDelay -= Time.deltaTime * 10;
             moveSat();
-            spriteRenderer.color = notPressed;
+            spriteRenderer.color = pressed;
         }
         else
         {
