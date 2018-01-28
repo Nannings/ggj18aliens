@@ -16,14 +16,14 @@ public class Button : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     private float releaseDelay = 0;
     private Collider2D col;
-    private ClosedEye closedEye;
+    private EyeToggle closedEye;
     public bool isPressed;
 
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         com = FindObjectOfType<SatCom>().gameObject;
-        closedEye = FindObjectOfType<ClosedEye>();
+        closedEye = FindObjectOfType<EyeToggle>();
     }
 
 

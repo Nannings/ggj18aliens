@@ -2,15 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ClosedEye : MonoBehaviour
+public class EyeToggle : MonoBehaviour
 {
     public GameObject hand1;
     public GameObject hand2;
     public GameObject hand3;
     public GameObject satCom;
-
-    private string stateToBe;
-    private int signals;
 
     public Button but1;
     public Button but2;
@@ -18,13 +15,6 @@ public class ClosedEye : MonoBehaviour
     public Button but4;
     public Button but5;
     public Button but6;
-
-
-    private void Start()
-    {
-        signals = 0;
-        stateToBe = "open";
-    }
 
     public void toggle(string actionstate){
 
