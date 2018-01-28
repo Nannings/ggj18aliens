@@ -6,7 +6,16 @@ using UnityEngine.SceneManagement;
 public class ShowInfo : MonoBehaviour {
 
     public GameObject popup;
+    public Color pressed;
+    public Color notPressed;
+
     private float popArea;
+    private SpriteRenderer spriteRenderer;
+
+    private void Awake()
+    {
+        spriteRenderer = GetComponent<SpriteRenderer>();
+    }
 
     void Start ()
     {
@@ -34,6 +43,12 @@ public class ShowInfo : MonoBehaviour {
 
         //}
 
-        popup.SetActive(Input.mousePosition.x >= popArea);
+        bool toggle = Input.mousePosition.x >= popArea;
+
+        popup.SetActive(toggle);
+
+        spriteRenderer.color = notPressed;
+        if (toggle)
+            spriteRenderer.color = pressed;
     }
 }
