@@ -33,7 +33,7 @@ public class Button : MonoBehaviour
         {
             moveSat();
             releaseDelay = 10;
-            Debug.Log("isOver & input");
+            //Debug.Log("isOver & input");
             if (closedEye != null)
             {
                 closedEye.toggle("pressed");
