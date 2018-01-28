@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 5ef2dc696010baa41a40276ad7adce07
-timeCreated: 1517049298
+timeCreated: 1517142951
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -83,10 +83,10 @@ TextureImporter:
       name: venusplant_0
       rect:
         serializedVersion: 2
-        x: 698
+        x: 726
         y: 8
-        width: 212
-        height: 626
+        width: 194
+        height: 619
       alignment: 9
       pivot: {x: 0.4783872, y: 0.2255251}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -99,8 +99,8 @@ TextureImporter:
         serializedVersion: 2
         x: 11
         y: 14
-        width: 373
-        height: 468
+        width: 393
+        height: 439
       alignment: 9
       pivot: {x: 0.5552776, y: 0.20384078}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,10 +111,10 @@ TextureImporter:
       name: venusplant_2
       rect:
         serializedVersion: 2
-        x: 449
-        y: 492
-        width: 300
-        height: 493
+        x: 474
+        y: 451
+        width: 275
+        height: 498
       alignment: 9
       pivot: {x: 0.286178, y: 0.23977023}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -126,9 +126,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 266
-        y: 477
-        width: 182
-        height: 523
+        y: 450
+        width: 208
+        height: 550
       alignment: 9
       pivot: {x: 0.5000002, y: 0.49342933}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,9 +140,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 499
-        width: 249
-        height: 501
+        y: 459
+        width: 262
+        height: 541
       alignment: 9
       pivot: {x: 0.6242081, y: 0.24849837}
       border: {x: 0, y: 0, z: 0, w: 0}
