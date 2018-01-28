@@ -19,18 +19,24 @@ public class ShowInfo : MonoBehaviour {
 
     void Start ()
     {
+        print(111);
+
         if (SceneManager.GetActiveScene().buildIndex == 4 || SceneManager.GetActiveScene().buildIndex == 5)
         {
             popArea = Screen.width - (Screen.width / 3.5f);
 
         }
-        else if(SceneManager.GetActiveScene().buildIndex == 7)
+        else if(SceneManager.GetActiveScene().buildIndex == 8)
         {
             popArea = Screen.width - (Screen.width / 3);
         }
-        else if (SceneManager.GetActiveScene().buildIndex == 6)
+        else if (SceneManager.GetActiveScene().buildIndex == 7)
         {
             popArea = Screen.width - (Screen.width / 5f);
+        }
+        else if (SceneManager.GetActiveScene().buildIndex == 10)
+        {
+            popArea = Screen.width - (Screen.width / 4f);
         }
         else {
             popArea = Screen.width - (Screen.width / 3);
