@@ -99,7 +99,7 @@ AnimationClip:
         tangentMode: 0
       - serializedVersion: 2
         time: 1
-        value: {x: 0, y: 0, z: -30.928001}
+        value: {x: 0, y: 0, z: -21.498001}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -124,7 +124,7 @@ AnimationClip:
         tangentMode: 0
       - serializedVersion: 2
         time: 1
-        value: {x: 0, y: 0, z: 39.026}
+        value: {x: 0, y: 0, z: -47.910004}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -149,7 +149,7 @@ AnimationClip:
         tangentMode: 0
       - serializedVersion: 2
         time: 1
-        value: {x: 0, y: 0, z: -24.321001}
+        value: {x: 0, y: 0, z: -20.364}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -199,7 +199,7 @@ AnimationClip:
         tangentMode: 0
       - serializedVersion: 2
         time: 1
-        value: {x: 0, y: 0, z: -1.6070001}
+        value: {x: 0, y: 0, z: -25.274002}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -224,7 +224,7 @@ AnimationClip:
         tangentMode: 0
       - serializedVersion: 2
         time: 1
-        value: {x: 0, y: 0, z: -21.625002}
+        value: {x: 0, y: 0, z: 4.6600003}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -301,7 +301,7 @@ AnimationClip:
         tangentMode: 0
       - serializedVersion: 2
         time: 1
-        value: {x: -0.042, y: 0.851, z: 0}
+        value: {x: -0.094, y: 0.847, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -901,7 +901,7 @@ AnimationClip:
         tangentMode: 136
       - serializedVersion: 2
         time: 1
-        value: -30.928001
+        value: -21.498001
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -985,7 +985,7 @@ AnimationClip:
         tangentMode: 136
       - serializedVersion: 2
         time: 1
-        value: 39.026
+        value: -47.910004
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1069,7 +1069,7 @@ AnimationClip:
         tangentMode: 136
       - serializedVersion: 2
         time: 1
-        value: -24.321001
+        value: -20.364
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1237,7 +1237,7 @@ AnimationClip:
         tangentMode: 136
       - serializedVersion: 2
         time: 1
-        value: -1.6070001
+        value: -25.274002
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1321,7 +1321,7 @@ AnimationClip:
         tangentMode: 136
       - serializedVersion: 2
         time: 1
-        value: -21.625002
+        value: 4.6600003
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1349,7 +1349,7 @@ AnimationClip:
         tangentMode: 136
       - serializedVersion: 2
         time: 1
-        value: -0.042
+        value: -0.094
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1377,7 +1377,7 @@ AnimationClip:
         tangentMode: 136
       - serializedVersion: 2
         time: 1
-        value: 0.851
+        value: 0.847
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1700,36 +1700,6 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Visboi_1/Visboi_2/Visboi_6
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: Visboi_1/Visboi_2/Visboi_6
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Visboi_1/Visboi_2/Visboi_6
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
     path: Visboi_1/Visboi_2/Visboi_5
     classID: 4
     script: {fileID: 0}
@@ -1790,6 +1760,36 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
+    path: Visboi_1/Visboi_2/Visboi_3
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Visboi_1/Visboi_2/Visboi_3
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Visboi_1/Visboi_2/Visboi_3
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
     path: Visboi_1/Visboi_2/Visboi_4
     classID: 4
     script: {fileID: 0}
@@ -1820,7 +1820,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Visboi_1/Visboi_2/Visboi_3
+    path: Visboi_1/Visboi_2/Visboi_6/Visboi_7/Finger (1)
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1830,7 +1830,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Visboi_1/Visboi_2/Visboi_3
+    path: Visboi_1/Visboi_2/Visboi_6/Visboi_7/Finger (1)
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1840,7 +1840,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Visboi_1/Visboi_2/Visboi_3
+    path: Visboi_1/Visboi_2/Visboi_6/Visboi_7/Finger (1)
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1909,8 +1909,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Visboi_1/Visboi_2/Visboi_6/Visboi_7
+    attribute: m_LocalEulerAngles.z
+    path: Visboi_1/Visboi_2/Visboi_6
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1920,7 +1920,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Visboi_1/Visboi_2/Visboi_6/Visboi_7
+    path: Visboi_1/Visboi_2/Visboi_6
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1929,8 +1929,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: Visboi_1/Visboi_2/Visboi_6/Visboi_7
+    attribute: m_LocalEulerAngles.x
+    path: Visboi_1/Visboi_2/Visboi_6
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1970,7 +1970,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Visboi_1/Visboi_2/Visboi_6/Visboi_7/Finger (1)
+    path: Visboi_1/Visboi_2/Visboi_6/Visboi_7
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1980,7 +1980,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Visboi_1/Visboi_2/Visboi_6/Visboi_7/Finger (1)
+    path: Visboi_1/Visboi_2/Visboi_6/Visboi_7
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1990,7 +1990,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Visboi_1/Visboi_2/Visboi_6/Visboi_7/Finger (1)
+    path: Visboi_1/Visboi_2/Visboi_6/Visboi_7
     classID: 4
     script: {fileID: 0}
   m_HasGenericRootTransform: 1
