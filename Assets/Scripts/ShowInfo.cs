@@ -33,7 +33,7 @@ public class ShowInfo : MonoBehaviour {
             popArea = Screen.width - (Screen.width / 5f);
         }
         else {
-            popArea = Screen.width - (Screen.width / 4);
+            popArea = Screen.width - (Screen.width / 3);
         }
     }
 	
