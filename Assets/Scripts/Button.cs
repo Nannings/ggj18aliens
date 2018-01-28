@@ -64,7 +64,7 @@ public class Button : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.CompareTag("Finger") || col.CompareTag("PlantEdge"))
+        if (collision.CompareTag("Finger") || collision.CompareTag("PlantEdge"))
         {
             isOver = false;
         }
