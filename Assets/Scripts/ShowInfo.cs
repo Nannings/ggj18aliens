@@ -34,7 +34,7 @@ public class ShowInfo : MonoBehaviour {
         {
             popArea = Screen.width - (Screen.width / 5f);
         }
-        else if (SceneManager.GetActiveScene().buildIndex == 10)
+        else if (SceneManager.GetActiveScene().buildIndex == 9)
         {
             popArea = Screen.width - (Screen.width / 4f);
         }
