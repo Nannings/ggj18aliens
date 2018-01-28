@@ -36,10 +36,10 @@ public class SatCom : MonoBehaviour {
 
     void Update ()
     {
-        if (Input.GetKey(KeyCode.C))
-        {
-            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(goalPos), 2 * Time.deltaTime);
-        }
+        //if (Input.GetKey(KeyCode.C))
+        //{
+        //    transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(goalPos), 2 * Time.deltaTime);
+        //}
 
         float angle = Quaternion.Angle(transform.rotation, Quaternion.Euler(goalPos)); //.identity = no Rotation
         if (angle < 20)
