@@ -61,7 +61,7 @@ public class SatCom : MonoBehaviour {
     {
         GameManager._instance.PlayComplete();
         level++;
-        if (level > 8)
+        if (level > 9)
         {
             level = 0;
         }
