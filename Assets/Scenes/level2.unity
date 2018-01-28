@@ -532,9 +532,9 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: "Outer-space always has robots, advanced intelligence and such. But this
     is a android made for pirating, so it has a hook and plays a lot of video-games.
-    Its favourite game is the grabber in the arcade, even though he never won anything...
-    \r\n\r\nPress with the end of your hook and keep in mind that the arm is moving
-    slowly. Not much more to it than that."
+    Its favourite game is the grabber in the arcade, even though it never won anything...\n\r\nPress
+    with the end of your hook and keep in mind that the arm is moving slowly. Not
+    much more to it than that."
 --- !u!222 &681737908
 CanvasRenderer:
   m_ObjectHideFlags: 0

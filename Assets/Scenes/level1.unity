@@ -909,8 +909,8 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: "Move the end of Ms. Pinkacle\u2019s tentacle (man, that\u2019s a tongue
     twister) over the button, and click to press it. \r\n\r\nMs. Pinkacle has to use
-    a lot of strength to hold his tentacle still, but at least she can keep  around
-    a general area. Good!  \r"
+    a lot of strength to hold her tentacle still, but at least she can keep  around
+    a general area. Good!"
 --- !u!222 &1429974364
 CanvasRenderer:
   m_ObjectHideFlags: 0

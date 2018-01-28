@@ -886,7 +886,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: "The Dallassus are a race of fish-people. They have long fingers, but don\u2019t
     have much control over them. For example, they keep three fingers close together
-    and when you click they have to press with all of their fingertips."
+    and when you click, they have to press with all of their fingertips."
 --- !u!222 &1325520208
 CanvasRenderer:
   m_ObjectHideFlags: 0

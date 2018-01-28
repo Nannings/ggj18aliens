@@ -1311,10 +1311,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Cat Alien? No, have you never heard of Nekomata? Well I guess this is species
-    is a little different. They prefer to press things with the tip of their claws,
-    which they keep moving out individually. \r\n\r\nI think it would be faster to
-    just use your paw, maybe it\u2019s a cultural thing.\r"
+  m_Text: "Cat Alien? No, have you never heard of Nekomatas? Well I guess this is
+    species is a little different. They prefer to press things with the tip of their
+    claws, which they keep moving out individually. \r\n\r\nI think it would be faster
+    to just use your paw, maybe it\u2019s a cultural thing.\r"
 --- !u!222 &2072941958
 CanvasRenderer:
   m_ObjectHideFlags: 0

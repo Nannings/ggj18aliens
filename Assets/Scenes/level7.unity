@@ -1620,10 +1620,10 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "O, god ! I\u2019m sorry to whatever alien race this is, but this is really
-    uncomfortable. Please but the level fast. \r\n\r\nIt has eyes on his whole body,
-    so whenever it touches something it closes all of its eyes by reflex. You can\u2019t
-    really see the satellite with your eyes closed. If you never paid attention to
-    the sound before, now\u2019s the time to do it.\r"
+    uncomfortable. Please beat the level fast, so we can stop looking at it!\r\n\r\nIt
+    has eyes on his whole body, so whenever it touches something, it closes all of
+    its eyes by reflex. You can\u2019t really see the satellite with your eyes closed,
+    and it's hard to make out what movement you're hearing."
 --- !u!222 &2075462515
 CanvasRenderer:
   m_ObjectHideFlags: 0
